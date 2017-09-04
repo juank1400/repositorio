@@ -19,17 +19,17 @@
     <repository>
       <include>true</include>
       <metadata>
-        <id>repository</id>
-        <url>file:/home/rwattcha/RedHat/TAM/CAPACITACION/workshop-jee7-basico-adv/support/repository/</url>
-        <source>SETTINGS</source>
+        <id>central</id>
+        <url>https://repo.maven.apache.org/maven2</url>
+        <source>PROJECT</source>
       </metadata>
     </repository>
     <repository>
       <include>true</include>
       <metadata>
-        <id>central</id>
-        <url>https://repo.maven.apache.org/maven2</url>
-        <source>PROJECT</source>
+        <id>repository</id>
+        <url>file:/home/rwattcha/RedHat/TAM/CAPACITACION/workshop-jee7-basico-adv/support/repository/</url>
+        <source>SETTINGS</source>
       </metadata>
     </repository>
   </repositories>
