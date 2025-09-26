@@ -5,9 +5,9 @@ graph TD
     end
 
     subgraph "Quarkus Application Layer"
-        B{MovieResource <br> (JAX-RS REST Endpoint)}
-        C{MovieRepository <br> (Panache Repository)}
-        D[Movie <br> (Panache Entity)]
+        B{MovieResource (JAX-RS REST Endpoint)}
+        C{MovieRepository (Panache Repository)}
+        D[Movie (Panache Entity)]
         E[Hibernate ORM / Panache]
     end
 
